@@ -2,7 +2,7 @@ box: alpine
 
 build:
   steps:
-
+    - npm install --save-dev babel-preset-env
 publish:
   steps:
     - internal/publish-step:
